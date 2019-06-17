@@ -22,9 +22,11 @@
             </intent-filter>
         </activity>
 
+        <!-- The file provider can br any name you want
+            you can replace 'asd' to 'provide' or 'fileprovider' ... -->
         <provider
                 android:name="androidx.core.content.FileProvider"
-                android:authorities="com.alaaeddin.takepicapp.fileprovider"
+                android:authorities="com.alaaeddin.takepicapp.asd"
                 android:exported="false"
                 android:grantUriPermissions="true">
             <meta-data

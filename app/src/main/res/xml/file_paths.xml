@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- The name can be any thing, the path is the where you defined it in the code
+    Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES)
+    and after it the file name "./" -->
 <paths>
     <external-path name="my_images" path="./"/>
 </paths>
