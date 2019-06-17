@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--A FileProvider can only generate a content URI for files in directories that you specify beforehand.
+    To specify a directory, specify the its storage area and path in XML, using child elements of the <paths>
+    element.
+    For example, the following paths element tells FileProvider that you intend to request content URIs
+    for the images/ subdirectory of your private file area.-->
+
 <!-- The name can be any thing, the path is the where you defined it in the code
     Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES)
     and after it the file name "./" -->
