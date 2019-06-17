@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TakePicApp</string>
+    <string name="take_pic">Take Pic</string>
+    <string name="captured_image">Captured Image</string>
+    <string name="preview_image">Preview Image</string>
+    <string name="share_image">Share Image</string>
+</resources>
